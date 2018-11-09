@@ -1,0 +1,26 @@
+{
+  "name": "tlg",
+  "version": "1.0.0",
+  "description": "A Telegram Client for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilongfa/node-tlg.git"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "DiLong Fa <dilongfa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dilongfa/node-tlg/issues"
+  },
+  "homepage": "https://github.com/dilongfa/node-tlg#readme",
+  "dependencies": {
+    "ffi-napi": "2.4.3",
+    "ref-napi": "1.4.0"
+  }
+}
