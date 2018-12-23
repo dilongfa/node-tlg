@@ -26,8 +26,13 @@ async function main() {
 
 	try {
 		await client.connect('user', 'YOUR_PHONE_NUMBER')
-		await client.sendMessage('YOUR_FRIEND_ID', 'Hello my friend')
-		await client.close()
+
+		await client.getChats()
+		await client.createPrivateChat('USER_ID')
+		await client.sendMessage('USER_ID', 'Hello my friend!')
+		
+		client.on('__updateMessageSendSucceeded', client.close)
+
 	} catch(e) {
 		console.error('ERROR', e)
 	}
