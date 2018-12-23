@@ -7,7 +7,7 @@ NodeJS API for the [TDLib](https://core.telegram.org/tdlib/getting-started). It 
 ### Installation
 
 1. Build the binary (https://github.com/tdlib/td#building)
-2. `npm install telegram-client`
+2. `npm i tlg`
 
 ---
 
