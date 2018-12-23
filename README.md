@@ -1,6 +1,8 @@
 ## node-tlg
 
-NodeJS API for the [TDLib](https://core.telegram.org/tdlib/getting-started). It helps you build your own Telegram Client
+NodeJS API for the [TDLib](https://core.telegram.org/tdlib/getting-started). 
+It helps you build your own Telegram Client. 
+Full support Secret Chat feature.
 
 ---
 
