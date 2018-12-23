@@ -14,7 +14,7 @@ NodeJS API for the [TDLib](https://core.telegram.org/tdlib/getting-started). It 
 ### Usage
 
 ```js
-const { Client } = require('telegram-client')
+const { Client } = require('tlg')
 
 main()
 

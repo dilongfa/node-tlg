@@ -1,5 +1,5 @@
 {
-  "name": "telegram-client",
+  "name": "tlg",
   "version": "1.1.0",
   "description": "NodeJS client for the Telegram's tdlib",
   "main": "index.js",
@@ -8,25 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dilongfa/node-telegram.git"
+    "url": "git+https://github.com/dilongfa/node-tlg.git"
   },
   "keywords": [
+    "tlg",
+    "node-tlg",
+    "tdl",
     "telegram",
     "tdlib",
+    "libtdjson",
     "nodejs",
     "node-tdlib",
+    "node-telegram",
     "telegram-client",
     "telegram-bot",
     "telegram-api",
-    "telegram-cli",
-    "libtdjson"
+    "telegram-cli"
   ],
   "author": "DiLong Fa <dilongfa@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dilongfa/node-telegram/issues"
+    "url": "https://github.com/dilongfa/node-tlg/issues"
   },
-  "homepage": "https://github.com/dilongfa/node-telegram#readme",
+  "homepage": "https://github.com/dilongfa/node-tlg#readme",
   "dependencies": {
     "ffi-napi": "2.4.3"
   }
